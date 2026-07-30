@@ -8,9 +8,9 @@ import com.moneymoment.ai.data.local.entity.SettingsEntity
 import com.moneymoment.ai.data.repository.GoalRepository
 import com.moneymoment.ai.data.repository.PurchaseRepository
 import com.moneymoment.ai.domain.engine.AIEngine
-import com.moneymoment.ai.domain.model.CategoryStats
+import com.moneymoment.ai.domain.engine.CategoryStats
+import com.moneymoment.ai.domain.engine.MonthlyStats
 import com.moneymoment.ai.domain.model.Goal
-import com.moneymoment.ai.domain.model.MonthlyStats
 import com.moneymoment.ai.domain.model.Purchase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

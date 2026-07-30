@@ -76,7 +76,7 @@ fun MoneyMomentMainScreen() {
         },
         bottomBar = {
             BottomNavBar(
-                currentRoute = currentRoute,
+                selectedRoute = currentRoute,
                 onNavigate = { route ->
                     navController.navigate(route) {
                         popUpTo(navController.graph.startDestinationId) {

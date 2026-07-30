@@ -42,7 +42,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.moneymoment.ai.domain.model.CategoryStats
+import com.moneymoment.ai.domain.engine.CategoryStats
 import com.moneymoment.ai.ui.components.CategoryProgressBar
 import com.moneymoment.ai.ui.components.StatCard
 import com.moneymoment.ai.ui.theme.AccentGreen
